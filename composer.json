@@ -1,17 +1,16 @@
 {
-    "name": "robotusers/cakephp-excel",
+    "name": "chcnetconsulting/cakephp-excel",
     "description": "Robotusers CakePHP Excel plugin",
-    "homepage": "https://github.com/robotusers/cakephp-excel",
+    "homepage": "https://github.com/chcnetconsulting/cakephp-excel",
     "type": "cakephp-plugin",
     "license": "MIT",
     "require": {
-        "php": ">=5.6",
-        "cakephp/filesystem": "^3.4",
-        "cakephp/orm": "^3.4",
-        "phpoffice/phpspreadsheet": "^1.1"
+        "php": ">=7.2",
+        "cakephp/filesystem": "^5.0",
+        "phpoffice/phpspreadsheet": "^1.16"
     },
     "require-dev": {
-        "cakephp/cakephp": "^3.6",
+        "cakephp/cakephp": "^4.0",
         "cakephp/cakephp-codesniffer": "*",
         "phpunit/phpunit": "^5.6|^6"
     },
